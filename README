@@ -1,13 +1,7 @@
 NAME
-    Test::Script - Highly cross-platform basic tests for script
+    Test::Script - Cross-platform basic tests for scripts
 
 DESCRIPTION
-    This module is experimental and may not perform as advertised... yet
-
-    API may change in future without notice
-
-    YOU HAVE BEEN WARNED
-
     The intent of this module is to provide a series of basic tests for
     scripts in the bin directory of your Perl distribution.
 
@@ -40,13 +34,6 @@ FUNCTIONS
     system perl). This will also be shown in the diagnostic output on
     failure.
 
-TO DO
-    - Make this work properly
-
-    - This module does not itself have tests
-
-    - Test on as many platforms as possible
-
 SUPPORT
     All bugs should be filed via the bug tracker at
 
@@ -62,7 +49,7 @@ SEE ALSO
     prove, <http://ali.as/>
 
 COPYRIGHT
-    Copyright 2006 Adam Kennedy. All rights reserved.
+    Copyright 2006 Adam Kennedy.
 
     This program is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
