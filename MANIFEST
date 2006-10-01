@@ -16,6 +16,6 @@ README
 t/01_compile.t
 t/02_good.t
 t/03_bad.t
-t/99_pod.t
+t/99_author.t
 t/bin/bad.pl
 t/bin/good.pl
