@@ -18,4 +18,4 @@ requires:
   File::Spec: 0.80
   IPC::Run3: 0.034
   perl: 5.005
-version: 1.01
+version: 1.02
