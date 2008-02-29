@@ -1,3 +1,6 @@
+97_meta.t
+98_pod.t
+99_pmv.t
 Changes
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
@@ -16,6 +19,5 @@ README
 t/01_compile.t
 t/02_good.t
 t/03_bad.t
-t/99_author.t
 t/bin/bad.pl
 t/bin/good.pl
