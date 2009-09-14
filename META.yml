@@ -1,13 +1,16 @@
 ---
-abstract: 'Cross-platform basic tests for scripts'
+abstract: 'Basic cross-platform tests for scripts'
 author:
   - 'Adam Kennedy <adamk@cpan.org>'
 build_requires:
+  ExtUtils::MakeMaker: 6.42
   Test::Builder: 0.32
   Test::Builder::Tester: 1.02
   Test::More: 0.62
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.77'
+generated_by: 'Module::Install version 0.91'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,5 +28,7 @@ requires:
   blib: 0
   perl: 5.005
 resources:
+  ChangeLog: http://fisheye2.atlassian.com/changelog/cpan/trunk/Test-Script
   license: http://dev.perl.org/licenses/
-version: 1.04_03
+  repository: http://svn.ali.as/cpan/trunk/Test-Script
+version: 1.05
